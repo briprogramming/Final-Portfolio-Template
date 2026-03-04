@@ -16,12 +16,7 @@ I'm Briana Daniels, a Software Engineer Apprentice at HP Inc. with a unique back
 I pursued this apprenticeship to gain comprehensive, end-to-end experience in software engineering as someone without traditional coding background. Coming from roles in supply chain analytics, ERP training, and business intelligence, I saw firsthand how technology transforms operations and empowers teams. I wanted to move from being a user and analyst of these systems to becoming someone who builds them. This apprenticeship has allowed me to develop technical skills in cloud architecture, automation, and AI while applying my analytical mindset and cross-functional collaboration experience to create impactful engineering solutions.
 
 ### Teams I've Worked On
-I currently work on HP's **Cybersecurity Identity and Access Management Team**, where I focus on automation, QA, AWS infrastructure, and AI-powered workflows. My work spans:
-
-- **Automation & AI Engineering**: Creating agentic and generative AI workflows for compliance documentation, automated documentation generation, requirement summarization, and intelligent issue triage that streamline engineering processes across teams
-- **Cloud Infrastructure & QA**: Supporting the design of AWS-powered QA dashboards using Python, Lambda, DynamoDB, CloudWatch, and API Gateway, increasing test coverage from 33% to 85%
-- **Developer Experience**: Improving developer onboarding efficiency and helping enterprise users adopt complex cloud and SaaS platforms through clear technical guidance
-- **AI-Powered Code Quality**: Integrating AI-powered code analysis into development workflows using generative models to review pull requests, detect logic inconsistencies, and recommend refactoring
+I currently work on HP's **Cybersecurity Identity and Access Management Team**, where I focus on automation, QA, AWS infrastructure, and AI-powered workflows.
 
 ### Areas of Interest
 My technical interests center on the intersection of **cloud technologies**, **automation**, and **artificial intelligence**:
