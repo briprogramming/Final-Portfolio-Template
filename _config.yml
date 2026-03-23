@@ -1,0 +1,79 @@
+# Jekyll Configuration for GitHub Pages
+
+# Site settings
+title: Briana Daniels - Software Engineering Portfolio
+description: Software Engineer Apprentice at HP Inc. - Showcasing projects in cloud architecture, AI integration, and full-stack development
+author: Briana Daniels
+email: 
+url: "" # Will be set by GitHub Pages
+baseurl: "" # Leave empty for user/organization pages
+
+# Theme
+theme: jekyll-theme-cayman
+# Alternative themes you can try:
+# theme: jekyll-theme-minimal
+# theme: jekyll-theme-slate
+# theme: jekyll-theme-modernist
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - README_old.md
+
+# Include files
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+
+# Relative links settings
+relative_links:
+  enabled: true
+  collections: false
+
+# Collections
+collections:
+  projects:
+    output: false
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# GitHub metadata
+github:
+  is_project_page: false
+  is_user_page: true
+
+# Social links
+linkedin_username: brianna-daniels
+
+# SEO settings
+social:
+  name: Briana Daniels
+  links:
+    - https://www.linkedin.com/in/brianna-daniels/
+    - https://github.com/BrianaDanielsCo
+
+# Show/hide elements
+show_downloads: false
+google_analytics: # Add your GA tracking ID if you have one
