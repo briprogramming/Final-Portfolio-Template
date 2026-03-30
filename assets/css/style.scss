@@ -1,0 +1,427 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ===================================
+   LIGHT PINK & WHITE PROFESSIONAL THEME
+   =================================== */
+
+:root {
+  --primary-pink: #FFB6C1;        /* Light pink */
+  --soft-pink: #FFE4E9;           /* Very soft pink */
+  --blush-pink: #FFC0CB;          /* Blush pink */
+  --rose-pink: #FF9FB2;           /* Rose pink */
+  --white: #FFFFFF;
+  --off-white: #FAFAFA;
+  --text-dark: #2C3E50;           /* Professional dark text */
+  --text-medium: #5A6C7D;
+  --accent-gold: #D4AF37;         /* Touch of gold for elegance */
+  --shadow-pink: rgba(255, 182, 193, 0.2);
+}
+
+/* ===================================
+   HEADER GRADIENT - Pink & White
+   =================================== */
+.page-header {
+  background: linear-gradient(135deg, var(--soft-pink) 0%, var(--primary-pink) 50%, var(--blush-pink) 100%) !important;
+  border-bottom: 3px solid white;
+  box-shadow: 0 4px 15px var(--shadow-pink);
+}
+
+.project-name {
+  color: var(--text-dark) !important;
+  font-weight: 700 !important;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.5px;
+}
+
+.project-tagline {
+  color: var(--text-medium) !important;
+  font-weight: 500 !important;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+  background: white !important;
+  color: var(--rose-pink) !important;
+  border: 2px solid var(--rose-pink) !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--shadow-pink);
+}
+
+.btn:hover {
+  background: var(--rose-pink) !important;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 159, 178, 0.4);
+}
+
+/* ===================================
+   MAIN CONTENT AREA
+   =================================== */
+.main-content {
+  max-width: 1100px;
+  background: var(--white);
+  padding: 3rem 4rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
+}
+
+body {
+  background: linear-gradient(to bottom, var(--off-white) 0%, white 100%);
+  font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+/* ===================================
+   TYPOGRAPHY
+   =================================== */
+.main-content h1 {
+  color: var(--text-dark);
+  border-bottom: 3px solid var(--primary-pink);
+  padding-bottom: 0.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.main-content h1::before {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--accent-gold);
+}
+
+.main-content h2 {
+  color: var(--rose-pink);
+  border-bottom: 2px solid var(--soft-pink);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 600;
+}
+
+.main-content h3 {
+  color: var(--text-medium);
+  margin-top: 1.5rem;
+  font-weight: 600;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.main-content h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+  width: 4px;
+  height: 1.2rem;
+  background: var(--primary-pink);
+  border-radius: 2px;
+}
+
+.main-content p {
+  color: var(--text-dark);
+  line-height: 1.8;
+  margin-bottom: 1.2rem;
+}
+
+/* ===================================
+   LINKS - Professional Pink
+   =================================== */
+.main-content a {
+  color: var(--rose-pink);
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.main-content a:hover {
+  color: var(--primary-pink);
+  border-bottom: 1px solid var(--primary-pink);
+}
+
+/* ===================================
+   PROJECT CARDS - Add Visual Interest
+   =================================== */
+.main-content h3 {
+  background: linear-gradient(135deg, var(--soft-pink) 0%, white 100%);
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  margin-top: 2.5rem;
+  box-shadow: 0 2px 10px var(--shadow-pink);
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.main-content h3::before {
+  display: none;
+}
+
+/* Emoji & Icons in headings */
+.main-content h3:first-line {
+  font-size: 1.1em;
+}
+
+/* ===================================
+   LISTS - Professional & Clean
+   =================================== */
+.main-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.main-content ul li {
+  position: relative;
+  padding-left: 1.8rem;
+  margin-bottom: 0.6rem;
+  line-height: 1.7;
+}
+
+.main-content ul li::before {
+  content: "▸";
+  position: absolute;
+  left: 0.5rem;
+  color: var(--primary-pink);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* Nested lists */
+.main-content ul ul li::before {
+  content: "•";
+  color: var(--rose-pink);
+}
+
+/* ===================================
+   CODE BLOCKS
+   =================================== */
+.main-content code {
+  background: var(--soft-pink);
+  color: var(--text-dark);
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid var(--primary-pink);
+}
+
+.main-content pre {
+  background: var(--off-white);
+  border: 2px solid var(--soft-pink);
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px var(--shadow-pink);
+}
+
+.main-content pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* ===================================
+   BLOCKQUOTES - Professional Touch
+   =================================== */
+.main-content blockquote {
+  background: linear-gradient(to right, var(--soft-pink) 0%, white 100%);
+  border-left: 5px solid var(--rose-pink);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0 8px 8px 0;
+  box-shadow: 0 2px 8px var(--shadow-pink);
+}
+
+.main-content blockquote p {
+  margin: 0;
+  font-style: italic;
+  color: var(--text-medium);
+}
+
+/* ===================================
+   HR - Elegant Dividers
+   =================================== */
+.main-content hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent 0%, var(--primary-pink) 50%, transparent 100%);
+  margin: 2.5rem 0;
+}
+
+/* ===================================
+   TABLES - Clean & Professional
+   =================================== */
+.main-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px var(--shadow-pink);
+}
+
+.main-content th {
+  background: var(--primary-pink);
+  color: white;
+  font-weight: 600;
+  padding: 0.8rem;
+}
+
+.main-content td {
+  background: white;
+  padding: 0.8rem;
+  border-bottom: 1px solid var(--soft-pink);
+}
+
+.main-content tr:last-child td {
+  border-bottom: none;
+}
+
+.main-content tr:hover td {
+  background: var(--soft-pink);
+  transition: background 0.2s ease;
+}
+
+/* ===================================
+   BADGES & TAGS (for tech stack)
+   =================================== */
+.main-content strong {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+/* Add visual interest to "Tech Stack" mentions */
+.main-content p strong:first-child {
+  background: var(--soft-pink);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  color: var(--text-dark);
+  font-size: 0.9em;
+  display: inline-block;
+}
+
+/* ===================================
+   FOOTER - Subtle & Professional
+   =================================== */
+.site-footer {
+  border-top: 2px solid var(--soft-pink);
+  padding: 2rem 0;
+  margin-top: 3rem;
+  text-align: center;
+  color: var(--text-medium);
+}
+
+/* ===================================
+   RESPONSIVE DESIGN
+   =================================== */
+@media screen and (max-width: 768px) {
+  .main-content {
+    padding: 2rem 1.5rem;
+  }
+  
+  .page-header {
+    padding: 2rem 1rem;
+  }
+  
+  .main-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .main-content h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* ===================================
+   SCROLL ANIMATIONS (subtle)
+   =================================== */
+.main-content h2,
+.main-content h3 {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===================================
+   PROFESSIONAL TOUCHES
+   =================================== */
+
+/* Add a subtle pattern to header */
+.page-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      rgba(255, 255, 255, 0.05) 10px,
+      rgba(255, 255, 255, 0.05) 20px
+    );
+  pointer-events: none;
+}
+
+/* Section spacing */
+.main-content > h2:first-of-type {
+  margin-top: 0;
+}
+
+/* Contact links styling */
+.main-content p a[href^="http"],
+.main-content p a[href^="mailto"] {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.3rem 0.8rem;
+  background: var(--soft-pink);
+  border-radius: 20px;
+  margin: 0.2rem 0.3rem 0.2rem 0;
+  transition: all 0.3s ease;
+  border-bottom: none !important;
+}
+
+.main-content p a[href^="http"]:hover,
+.main-content p a[href^="mailto"]:hover {
+  background: var(--rose-pink);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px var(--shadow-pink);
+}
+
+/* Make the "Live Portfolio" link special */
+.main-content p a[href*="github.io"] {
+  background: linear-gradient(135deg, var(--rose-pink), var(--primary-pink));
+  color: white !important;
+  font-weight: 600;
+  padding: 0.4rem 1rem;
+  box-shadow: 0 2px 8px var(--shadow-pink);
+}
+
+.main-content p a[href*="github.io"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(255, 159, 178, 0.4);
+}
+
+/* Professional skill badges */
+.main-content ul li code {
+  background: white;
+  border: 1px solid var(--primary-pink);
+  color: var(--rose-pink);
+  font-weight: 600;
+}
