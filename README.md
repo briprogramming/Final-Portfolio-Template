@@ -1,5 +1,7 @@
 # Briana Daniels - Software Engineering Portfolio
 
+**🌐 Live Portfolio**: [https://briprogramming.github.io/Portfolio/](https://briprogramming.github.io/Portfolio/)
+
 This repository showcases my key learnings and projects from my Software Engineer Apprenticeship at HP Inc. (January 2025 - April 2026).
 
 ## About Me
@@ -7,7 +9,9 @@ This repository showcases my key learnings and projects from my Software Enginee
 I'm Briana Daniels, a Software Engineer Apprentice at HP Inc. with a unique background that bridges operational excellence, data analytics, and modern software engineering. My journey into technology has been driven by curiosity and a passion for solving complex problems through automation, cloud technologies, and AI-powered solutions.
 
 **Contact & Links**
-- [LinkedIn](https://www.linkedin.com/in/brianna-daniels/)
+- **Portfolio**: [briprogramming.github.io/Portfolio](https://briprogramming.github.io/Portfolio/)
+- **LinkedIn**: [linkedin.com/in/brianna-daniels](https://www.linkedin.com/in/brianna-daniels/)
+- **GitHub**: [github.com/briprogramming](https://github.com/briprogramming)
 - **Host Company**: HP Inc.
 - **Apprenticeship Duration**: January 2025 - April 2026
 
@@ -43,9 +47,9 @@ I pursued this apprenticeship to gain comprehensive, end-to-end experience in so
 
 ## Featured Projects
 
-### 🚀 [DevDeployPal](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Deployment%20Project/DevDeployPal)
+### 🚀 [DevDeployPal](https://github.com/DevDeployPal/DevDeployPal)
 
-**AI-Powered Deployment Assistant** | [Live Demo](#)
+**AI-Powered Deployment Assistant** | [Repository](https://github.com/DevDeployPal/DevDeployPal)
 
 An AI-powered deployment management platform that helps developers track deployments with confidence through smart automation and engaging user experience.
 
@@ -68,9 +72,9 @@ An AI-powered deployment management platform that helps developers track deploym
 
 ---
 
-### 🎵 [Music Discovery App](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Frontend%20Project/music-discovery-app)
+### 🎵 [Music Discovery App](https://github.com/FrontEndProjectMV/music-discovery-app)
 
-**Interactive Spotify-Inspired Player** | [Repository](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Frontend%20Project/music-discovery-app)
+**Interactive Spotify-Inspired Player** | [Repository](https://github.com/FrontEndProjectMV/music-discovery-app)
 
 A modern front-end music application featuring innovative circular queue visualization and dynamic album art-driven color schemes.
 
@@ -95,9 +99,9 @@ A modern front-end music application featuring innovative circular queue visuali
 
 ---
 
-### 🧞 [The Wish Granting API](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Backend%20Project/The-Wish-Granting-API)
+### 🧞 [The Wish Granting API](https://github.com/FairyOddTeam/The-Wish-Granting-API)
 
-**RESTful Backend with AI Integration** | [Repository](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Backend%20Project/The-Wish-Granting-API)
+**RESTful Backend with AI Integration** | [Repository](https://github.com/FairyOddTeam/The-Wish-Granting-API)
 
 A comprehensive backend service that combines dual authentication strategies with Google Gemini AI for humorous wish outcomes.
 
@@ -122,9 +126,9 @@ A comprehensive backend service that combines dual authentication strategies wit
 
 ---
 
-### 🔐 [Password Manager](https://hackathon-project-2885.onrender.com/)
+### 🔐 [Password Manager](https://github.com/briprogramming/Hackathon-Project)
 
-**Hackathon Project - Secure Credential Vault** | [Live Demo](https://hackathon-project-2885.onrender.com/)
+**Hackathon Project - Secure Credential Vault** | [Repository](https://github.com/briprogramming/Hackathon-Project) | [Live Demo](https://hackathon-project-2885.onrender.com/)
 
 A secure password storage application built during a hackathon, featuring encrypted credential management and search functionality.
 
@@ -147,9 +151,9 @@ A secure password storage application built during a hackathon, featuring encryp
 
 ---
 
-### 📦 [Inventory Management App](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Inventory%20Project/InventoryApp)
+### 📦 [Inventory Management App](https://github.com/Runtime-Terror123/InventoryApp)
 
-**E-Commerce Inventory Tracker** | [Repository](https://github.com/BrianaDanielsCo/Final-Portfolio/tree/main/Inventory%20Project/InventoryApp)
+**E-Commerce Inventory Tracker** | [Repository](https://github.com/Runtime-Terror123/InventoryApp)
 
 A full-stack CRUD application for managing e-commerce inventory with shopping cart functionality and mobile responsiveness.
 

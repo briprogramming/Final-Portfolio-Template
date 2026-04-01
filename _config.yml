@@ -2,11 +2,23 @@
 
 # Site settings
 title: Briana Daniels - Software Engineering Portfolio
-description: Software Engineer Apprentice at HP Inc. - Showcasing projects in cloud architecture, AI integration, and full-stack development
+description: >-
+  Software Engineer Apprentice @ HP Inc.
+  Building cloud-native solutions with AI integration and modern web technologies.
 author: Briana Daniels
 email: 
 url: "" # Will be set by GitHub Pages
 baseurl: "" # Leave empty for user/organization pages
+
+# SEO & Social
+twitter:
+  username: briprogramming
+  card: summary_large_image
+social:
+  name: Briana Daniels
+  links:
+    - https://www.linkedin.com/in/brianna-daniels/
+    - https://github.com/briprogramming
 
 # Theme
 theme: jekyll-theme-cayman
@@ -30,6 +42,11 @@ exclude:
   - .git
   - .gitignore
   - README_old.md
+  - Backend Project/
+  - Frontend Project/
+  - Deployment Project/
+  - Hackathon Project/
+  - Inventory Project/
 
 # Include files
 include:
